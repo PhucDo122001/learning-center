@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from "react";
+import DefaultLayout from "./components/layout/DefaultLayout";
+import {Login, Signup} from "./components/index";
+import {Routes, Route, Navigate} from 'react-router-dom'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const userId = localStorage.getItem('userId');
+    const [isUser ,setIsUser] = useState(userId ? true : false);
+    console.log(isUser);
+    const handleLogin = (ID) => {
+      console.log(ID);
+      localStorage.setItem('userId', ID);
+      setIsUser(true);
+    }
+  return isUser ? <DefaultLayout isUser={isUser} /> :
+  <Routes>
+    <Route path='/login' element={<Login onLogin={handleLogin}/>} />
+    <Route path='/signup' element={<Signup />}/>
+    <Route path="*" element={<Navigate to='/login'replace />} />
+  </Routes>
+
 }
 
 export default App;
