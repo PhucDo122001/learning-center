@@ -4,7 +4,6 @@ import {Login, Signup} from "./components/index";
 import {Routes, Route, Navigate} from 'react-router-dom'
 function App() {
   const userId = localStorage.getItem('userId');
-  const [abc, setAbc] = useState()
     const [isUser ,setIsUser] = useState(userId ? true : false);
     console.log(isUser);
     const handleLogin = (ID) => {
