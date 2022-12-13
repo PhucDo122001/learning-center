@@ -1,0 +1,89 @@
+.courses {
+  .courses__header {
+    .courses__header--box {
+      height: 50px;
+      background-color: #216999;
+      margin: 16px 0;
+      .courses__header--box-text {
+        float: right;
+        margin-right: 32px;
+        font-weight: 600;
+        font-size: 16px;
+        color: rgb(223, 223, 223);
+      }
+      .courses__header--box-text:hover {
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+      }
+    }
+  }
+  .courses__list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    .courses__list-item {
+      width: 20%;
+      border: 2px solid #ccc;
+      box-shadow: 0 0 10px #ccc;
+      border-radius: 8px;
+      padding: 12px;
+      height: 300px;
+        position: relative;
+      .btn-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 32px;
+        position: absolute;
+        bottom: 32px;
+        right: 0;
+        left: 0;
+        .btn{
+          height: 32px;
+          font-size: 16px;
+          padding: 6px 12px;
+          border-radius: 4px;
+          outline: none;
+          border: none;
+          background-color: rgb(15, 119, 255);
+          opacity: .7;
+          color: white;
+          font-weight: 600;
+        }
+        .btn-delete {
+          background-color: rgb(255, 87, 81);
+
+        }
+        .btn:hover {
+          cursor: pointer;
+          opacity: 1;
+        }
+      }
+       
+    }
+    // .courses__list-item:hover {
+    //   background-color: rgb(208, 228, 255);
+    //   cursor: pointer;
+    //   border: 2px solid rgb(208, 228, 255);
+    //   box-shadow: 0 0 10px rgb(173, 207, 255);
+    // }
+  }
+  .courses__more {
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    .courses__more--btn {
+      font-size: 16px;
+      border: none;
+      background-color: #f5f5f5;
+    }
+    .courses__more--btn:hover {
+      cursor: pointer;
+      color: #029df0;
+    }
+  }
+}
