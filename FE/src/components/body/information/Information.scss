@@ -1,0 +1,141 @@
+.information {
+    display: flex;
+    margin: 5% 10%;
+    min-height: 100vh;
+    gap: 5%;
+  .infor__left {
+    padding: 0 5%;
+    border-right: 2px solid black;
+    .avatar__img {
+      height: 350px;
+      width: 350px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgb(150, 150, 150);
+    }
+    .fa-user {
+      font-size: 200px;
+      height: 350px;
+      width: 350px;
+      border: 1px solid black;
+      text-align: center;
+      line-height: 320px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgb(150, 150, 150);
+    }
+    .infor__left-name {
+        font-size: 52px;
+        text-align: center;
+        margin-top: 22px;
+    }
+    .info-box {
+        .text-title {
+            font-size: 20px;
+        }
+        .text-text {
+            font-size: 20px;
+
+            strong {
+            font-size: 24px;
+
+            }
+        }
+    }
+    .btn-box {
+            margin: 52px auto;
+            text-align: center;
+        .btn-logout {
+            border: none;
+            outline: none;
+            background-color: #F5F5F5;
+            font-size: 20px;
+            padding: 0;
+            color: rgb(255, 137, 137);
+            font-weight: 600;
+        }
+        .btn-logout:hover {
+            cursor: pointer;
+            color: rgb(255, 0, 0);
+        }
+    }
+    
+  }
+  .infor__right {
+    width: 100%;
+    padding: 0 5%;
+    background-color: rgb(255, 251, 231);
+    border-radius: 12px;
+    .title {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .content {
+
+      .content-box {
+        .list-title {
+          display: flex;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          border-bottom: 1px solid #ccc;
+          .item{
+            text-align: center;
+              .name {
+            width: 300px;
+          }
+            .lecture {
+              width: 200px;
+            }
+            .active {
+              width: 100px;
+            }
+          }
+        
+        }
+        .list-courses {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          .item{
+          display: flex;
+          text-align: center;
+          padding: 0;
+          .name {
+            width: 300px;
+          }
+            .lecture {
+              width: 200px;
+            }
+            .active {
+              width: 100px;
+
+              &:hover {
+                color: red;
+                cursor: pointer;
+              }
+            }
+
+          }
+          
+        }
+      }
+      .empty {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 100px;
+        color: rgb(70, 70, 70);
+      }
+    }
+  }
+  .font-18px {
+    font-size: 18px;
+  }
+  .font-20px {
+    font-size: 18px;
+  }
+  .font-weight{
+    font-weight: 600;
+  
+  }
+}
+

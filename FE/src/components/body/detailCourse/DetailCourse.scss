@@ -1,0 +1,42 @@
+.detail {
+    margin: 5% 25%;
+    box-shadow: 0 0 15px rgb(170, 170, 170);
+    border-radius: 8px;
+    padding: 8px 32px;
+    .title {
+        text-align: center;
+        margin: 22px;
+
+        strong{
+            font-size: 26px;
+        }
+    }
+    
+    .lecture {
+        font-size: 16px;
+
+    }
+    .btn-box {
+        width: 100%;
+        .btn {
+            margin: 32px 0 16px 0;
+            border: none;
+            outline: none;
+            border-radius: 12px;
+            font-size: 26px;
+            background-color: rgb(107, 107, 255) ;
+            color: white;
+            padding: 8px 16px;
+            &:hover {
+                background-color: rgb(20, 20, 255) ;
+                cursor: pointer;
+            }
+        }
+    }
+}
+strong{
+    font-size: 20px;
+}
+.font-16px {
+    font-size: 18px;
+}

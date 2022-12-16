@@ -1,0 +1,184 @@
+.home {
+    margin-bottom: 50px;
+    .home__header {
+        background-color: #216999;
+        height: 250px;
+        .home__header--list {
+            display: flex;
+            justify-content: center;
+            gap:50px;
+            list-style-type: none;
+            .home__header--lis-item {
+                text-align: center;
+                color: white;           
+                     .home__header--lis-item--number {
+                    font-size: 42px;
+                    font-weight: 700;
+                    margin-bottom: 12px;
+                }
+                .home__header--lis-item--title {
+                    margin: 0;
+                    font-size: 28px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+  .home__header-form {
+    display: flex;
+    height: 60px;
+    background-color: #2ca9e2;
+    margin-top: 16px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 22px;
+
+    .home__header-text {
+      color: white;
+      font-weight: 600;
+    }
+    .home__header-options {
+      font-size: 18px;
+      padding: 8px 12px;
+      outline: none;
+      border-radius: 8px;
+      font-weight: 600;
+      color: rgb(15, 93, 129);
+    }
+    .home__header-btn {
+      font-weight: 600;
+      color: white;
+      background-color: #ff6609;
+      border-radius: 8px;
+      border: none;
+      font-size: 18px;
+      padding: 8px 16px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .home__slider {
+    .home__slider-title {
+      font-size: 32px;
+      width: 320px;
+      padding-bottom: 8px;
+      border-bottom: 4px solid #2CA9E2;
+      text-align: center;
+    }
+    .home__slider-list {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      .home__slider-list--item {
+        width: 20%;
+        height: 410px;
+        box-shadow: 0 0 10px #ccc;
+        border-radius: 12px;
+        position: relative;
+        .home__slider-list--item-picture {
+          .item-picture-img {
+            width: 100%;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+          }
+
+        }
+        .home__slider-list--item-content {
+            padding: 8px 16px;
+            .item-content--title {
+                font-size: 18px;
+            }
+            .item-content--lecture {
+                font-size: 15px;
+                opacity: .6;
+
+            }
+            .item-content--text {
+                opacity: .8;
+            }
+        }
+        .home__slider-list--item-btn {
+            position: absolute;
+            bottom: -15px;
+            right: 20px;
+            font-size: 18px;
+            background-color: #2CA9E2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 6px;
+        }
+        .home__slider-list--item-btn:hover {
+            background-color: #47bff7;
+            cursor: pointer;
+        }
+      }
+    }
+  }
+  .home__lecture {
+    .home__lecture-title {
+      font-size: 32px;
+      width: 320px;
+      padding-bottom: 8px;
+      border-bottom: 4px solid #2CA9E2;
+      text-align: center;
+    }
+    .home__lecture-list {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      .home__lecture-list--item {
+        width: 15%;
+        position: relative;
+        .home__lecture-list--item-picture {
+          .item-picture-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+          }
+
+        }
+        .home__lecture-list--item-content {
+            padding: 8px 16px;
+        text-align: center;
+
+            .item-content--title {
+                font-size: 18px;
+                color: #2ca9e2;
+            }
+            .item-content--lecture {
+                font-size: 15px;
+                opacity: .6;
+
+            }
+            .item-content--text {
+                opacity: .8;
+            }
+        }
+        .home__lecture-list--item-btn {
+            position: absolute;
+            bottom: -15px;
+            right: 20px;
+            font-size: 18px;
+            background-color: #2CA9E2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 6px;
+        }
+        .home__lecture-list--item-btn:hover {
+            background-color: #47bff7;
+            cursor: pointer;
+        }
+      }
+    }
+  }
+}
