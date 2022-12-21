@@ -22,6 +22,22 @@ function Home() {
                     <p className="home__header--lis-item--number">4.000+</p>
                     <p className="home__header--lis-item--title">ĐỀ LUYỆN THI</p>
                 </li>
+                <li className="home__header--lis-item">
+                    <p className="home__header--lis-item--number">5.000+</p>
+                    <p className="home__header--lis-item--title">ĐỀ LUYỆN THI IELTS</p>
+                </li>
+                <li className="home__header--lis-item">
+                    <p className="home__header--lis-item--number">7.000+</p>
+                    <p className="home__header--lis-item--title">ĐỀ LUYỆN THI TOIEC</p>
+                </li>
+                <li className="home__header--lis-item">
+                    <p className="home__header--lis-item--number">4.000+</p>
+                    <p className="home__header--lis-item--title">ĐỀ LUYỆN THI Speeking</p>
+                </li>
+                <li className="home__header--lis-item">
+                    <p className="home__header--lis-item--number">3.000+</p>
+                    <p className="home__header--lis-item--title">ĐỀ LUYỆN THI LISTENING</p>
+                </li>
             </ul>
         </div>
       <form className="home__header-form">
@@ -55,7 +71,7 @@ function Home() {
               />
             </div>
             <div className="home__slider-list--item-content">
-                <h3 className="item-content--title">Tiếng Anh 3</h3>
+                <h3 className="item-content--title">Basic</h3>
                 <p className="item-content--lecture">Thầy Vitalii Turytskyi</p>
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
@@ -134,7 +150,7 @@ function Home() {
             </div>
             <div className="home__lecture-list--item-content">
                 <h3 className="item-content--title">Thầy Vitalii Turytskyi</h3>
-                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Vạn Phúc - Hà Đông</p>
+                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Ngô Thời Nhiệm - Quận 9 - Tp.Thủ Đức</p>
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
                   công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
@@ -144,7 +160,7 @@ function Home() {
             <div className="home__lecture-list--item-picture">
               <img
                 className="item-picture-img"
-                src="https://cdn-cf.vuihoc.vn/upload/5c209fe6176b0/2022/03/22/4689_khoa-hoc-tieng-anh-3.jpg"
+                src="https://info-imgs.vgcloud.vn/2021/12/30/05/su-that-dang-sau-buc-anh-thay-giao-day-toan-dien-trai-dang-hot-ran-ran-tren-mang-xa-hoi.jpg"
                 alt="img"
               />
             </div>
@@ -161,13 +177,13 @@ function Home() {
             <div className="home__lecture-list--item-picture">
               <img
                 className="item-picture-img"
-                src="https://cdn-cf.vuihoc.vn/upload/5c209fe6176b0/2022/03/22/4689_khoa-hoc-tieng-anh-3.jpg"
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/276042066_273843248261413_1195129032453996328_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=CNV2Mi_2JCcAX-io9Om&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCFjxvDCye3KQdUN3OdlVZAYzTznzlWTl96jOMD1-pUgQ&oe=63A7C556"
                 alt="img"
               />
             </div>
             <div className="home__lecture-list--item-content">
-                <h3 className="item-content--title">Thầy Vitalii Turytskyi</h3>
-                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Vạn Phúc - Hà Đông</p>
+                <h3 className="item-content--title">Teacher Kieu Oanh</h3>
+                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Hồng Đức - Quận 9 - HCM</p>
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
                   công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
@@ -178,30 +194,13 @@ function Home() {
             <div className="home__lecture-list--item-picture">
               <img
                 className="item-picture-img"
-                src="https://cdn-cf.vuihoc.vn/upload/5c209fe6176b0/2022/03/22/4689_khoa-hoc-tieng-anh-3.jpg"
+                src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/276042066_273843248261413_1195129032453996328_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=CNV2Mi_2JCcAX-io9Om&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCFjxvDCye3KQdUN3OdlVZAYzTznzlWTl96jOMD1-pUgQ&oe=63A7C556"
                 alt="img"
               />
             </div>
             <div className="home__lecture-list--item-content">
                 <h3 className="item-content--title">Thầy Vitalii Turytskyi</h3>
-                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Vạn Phúc - Hà Đông</p>
-                <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
-                </p>
-              </div>
-          </li>
-          <li className="home__lecture-list--item">
-            <div className="home__lecture-list--item-picture">
-              <img
-                className="item-picture-img"
-                src="https://cdn-cf.vuihoc.vn/upload/5c209fe6176b0/2022/03/22/4689_khoa-hoc-tieng-anh-3.jpg"
-                alt="img"
-              />
-            </div>
-            <div className="home__lecture-list--item-content">
-                <h3 className="item-content--title">Thầy Vitalii Turytskyi</h3>
-                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Vạn Phúc - Hà Đông</p>
+                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Gáo Giồng - Đồng Tháp</p>
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
                   công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
