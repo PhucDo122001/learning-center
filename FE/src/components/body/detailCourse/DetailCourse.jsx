@@ -11,7 +11,7 @@ function DetailCourse() {
 
   // /getCourse/:id
   useEffect(() => {
-    fetch(`http://localhost:3002/api/getOne/` + getCourse)
+    fetch(`https://api-center-cp8i.onrender.com/api/getOne/` + getCourse)
       .then((res) => res.json())
       .then((res) => {
         setCourse(res);
@@ -19,7 +19,7 @@ function DetailCourse() {
       });
 
     // /getUser/:id
-    fetch(`http://localhost:3002/api/getOneUser`, {
+    fetch(`https://api-center-cp8i.onrender.com/api/getOneUser`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -45,7 +45,7 @@ function DetailCourse() {
     }
 
     //Update Course trong user
-    fetch(`http://localhost:3002/api/updateUser/` + getUser, {
+    fetch(`https://api-center-cp8i.onrender.com/api/updateUser/` + getUser, {
       method: "PATCH",
       body: JSON.stringify({
         numberCourses: listCourse,
@@ -68,7 +68,7 @@ function DetailCourse() {
     } else {
       listStudent = getUser;
     }
-    fetch(`http://localhost:3002/api/update/` + getCourse, {
+    fetch(`https://api-center-cp8i.onrender.com/api/update/` + getCourse, {
       method: "PATCH",
       body: JSON.stringify({
         currentStudent: listStudent,
@@ -92,6 +92,18 @@ function DetailCourse() {
       <p className="lecture font-16px">
         Tên Giáo Viên: <strong>{Course.lecture}</strong>
       </p>
+      <p className="lecture font-16px">
+        Tuổi Giáo Viên: <strong>{Course.lecture}</strong>
+      </p>
+      <p className="lecture font-16px">
+        : <strong>{Course.lecture}</strong>
+      </p>
+      <p className="lecture font-16px">
+        Trình độ giáo viên: <strong>{Course.lecture}</strong>
+      </p>
+      <p className="lecture font-16px">
+        Công tác : <strong>{Course.lecture}</strong>
+      </p>
       <p className="datestart font-16px">
         Ngày Bắt Đầu: <strong>{Course.dateStart}</strong>
       </p>
@@ -103,6 +115,8 @@ function DetailCourse() {
             : "0"}{" "}
           / {Course.maxStudent}
         </strong>
+
+        
       </p>
       <p className="price font-16px">
         Phí: <strong>FREE</strong>
