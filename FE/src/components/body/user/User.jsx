@@ -5,7 +5,7 @@ function User() {
     const [numberUser, setNumberUser] = useState(10)
     
     useEffect(() => {
-        fetch(`http://localhost:3002/api/getUser`)
+        fetch(`https://api-center-cp8i.onrender.com/api/getUser`)
         .then(res => res.json())
         .then(res => {
             setListUsers(res)
@@ -17,7 +17,7 @@ function User() {
 
 
     const handdleDelete = (selectId) => {
-        fetch(`http://localhost:3002/api/delete/` + selectId, {
+        fetch(`https://api-center-cp8i.onrender.com/api/delete/` + selectId, {
           method: "DELETE",
         })
           .then((res) => res.json())

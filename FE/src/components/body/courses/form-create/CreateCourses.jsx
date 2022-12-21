@@ -24,7 +24,7 @@ const handleInputCourses = (e) => {
     dateStart: dayInput,
     maxStudent: maxStudentInput
     }
-    fetch(`http://localhost:3002/api/post`, {
+    fetch(`https://api-center-cp8i.onrender.com/api/post`, {
         method:  'POST',
         headers: {
           'Content-Type': 'application/json',
