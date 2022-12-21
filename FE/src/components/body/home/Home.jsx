@@ -166,7 +166,7 @@ function Home() {
               />
             </div>
             <div className="home__lecture-list--item-content">
-                <h3 className="item-content--title">Thầy Vitalii Turytskyi</h3>
+                <h3 className="item-content--title">Teacher Kieu Oanh</h3>
                 <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Vạn Phúc - Hà Đông</p>
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
