@@ -44,7 +44,7 @@ function Login({ onLogin }) {
 
 
     //gui data len api check login
-    fetch(`http://localhost:3002/api/login`, {
+    fetch(`https://api-center-cp8i.onrender.com/api/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

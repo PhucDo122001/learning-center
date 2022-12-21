@@ -38,7 +38,7 @@ const DefaultLayout = ({ isUser }) => {
 
 
   useEffect(() => {
-    fetch(`http://localhost:3002/api/getOneUser`, {
+    fetch(`https://api-center-cp8i.onrender.com/api/getOneUser`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

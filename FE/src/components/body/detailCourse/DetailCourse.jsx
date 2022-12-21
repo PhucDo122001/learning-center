@@ -11,7 +11,7 @@ function DetailCourse() {
 
   // /getCourse/:id
   useEffect(() => {
-    fetch(`http://localhost:3002/api/getOne/` + getCourse)
+    fetch(`https://api-center-cp8i.onrender.com/api/getOne/` + getCourse)
       .then((res) => res.json())
       .then((res) => {
         setCourse(res);
@@ -19,7 +19,7 @@ function DetailCourse() {
       });
 
     // /getUser/:id
-    fetch(`http://localhost:3002/api/getOneUser`, {
+    fetch(`https://api-center-cp8i.onrender.com/api/getOneUser`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -45,7 +45,7 @@ function DetailCourse() {
     }
 
     //Update Course trong user
-    fetch(`http://localhost:3002/api/updateUser/` + getUser, {
+    fetch(`https://api-center-cp8i.onrender.com/api/updateUser/` + getUser, {
       method: "PATCH",
       body: JSON.stringify({
         numberCourses: listCourse,
@@ -68,7 +68,7 @@ function DetailCourse() {
     } else {
       listStudent = getUser;
     }
-    fetch(`http://localhost:3002/api/update/` + getCourse, {
+    fetch(`https://api-center-cp8i.onrender.com/api/update/` + getCourse, {
       method: "PATCH",
       body: JSON.stringify({
         currentStudent: listStudent,

@@ -10,7 +10,7 @@ function Courses() {
   const [isAdmin, setIsAdmin] = useState(false);
   const IdStored = localStorage.getItem("userId");
 useEffect(() => {
-  fetch(`http://localhost:3002/api/getOneUser`, {
+  fetch(`https://api-center-cp8i.onrender.com/api/getOneUser`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -30,7 +30,7 @@ useEffect(() => {
 
 
   useEffect(() => {
-    fetch(`http://localhost:3002/api/get`)
+    fetch(`https://api-center-cp8i.onrender.com/api/get`)
       .then((res) => res.json())
       .then((res) => {
         
@@ -50,7 +50,7 @@ useEffect(() => {
 
 
   const handdleDelete = (id) => {
-    fetch(`http://localhost:3002/api/deleteCourse/` + id, {
+    fetch(`https://api-center-cp8i.onrender.com/api/deleteCourse/` + id, {
       method: "DELETE",
     })
       .then((res) => res.json())
