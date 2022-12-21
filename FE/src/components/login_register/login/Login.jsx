@@ -2,7 +2,7 @@ import { useNavigate, Link } from "react-router-dom";
 import "./Login.css";
 import { useState, useEffect } from "react";
 import ImgLogin from "../img/index.js";
-import {Loading} from '../../index'
+import {Loading} from '../../index';
 
 //tao 1 bien de luu value khi Login, sau do dung bien nay gui len api check
 let dataUser = {
