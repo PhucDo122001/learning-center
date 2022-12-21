@@ -161,7 +161,7 @@ function Home() {
             <div className="home__lecture-list--item-picture">
               <img
                 className="item-picture-img"
-                src="https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/319463960_615619287033870_2409367730839005828_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=MbbMC8JnCKEAX9PdLle&_nc_ht=scontent.fsgn3-1.fna&oh=03_AdQ71-d0mxb1ZB3WBPzrTqKex_Kqcv1rfeFeNCT2F6uNmA&oe=63CAB775"
+                src="https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/319273325_1331407280734870_6885519838717899206_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=rqErivaGDhcAX_GMIFf&_nc_ht=scontent.fsgn4-1.fna&oh=03_AdT40Se1BRppxcafZatiVRDOMGWk_p_t3PmhaY7O1tgKuw&oe=63CA9B95"
                 alt="img"
               />
             </div>
