@@ -150,10 +150,10 @@ function Home() {
             </div>
             <div className="home__lecture-list--item-content">
                 <h3 className="item-content--title">Teacher Cam Tu</h3>
-                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Vạn Phúc - Hà Đông</p>
+                <p className="item-content--lecture">Teacher Physical, Trường THCS-THPT Nguyen Khuyen</p>
                 <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
+                Learning Physics is a very important method to train students' sharp thinking and logical reasoning ability. 
+                Learning Physics helps students improve their memory, quick reflexes and reasoning ability
                 </p>
               </div>
           </li>
