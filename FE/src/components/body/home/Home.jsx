@@ -128,7 +128,7 @@ function Home() {
             <div className="home__lecture-list--item-picture">
               <img
                 className="item-picture-img"
-                src="https://cdn-cf.vuihoc.vn/upload/5c209fe6176b0/2022/03/22/4689_khoa-hoc-tieng-anh-3.jpg"
+                src="https://scontent.fsgn3-1.fna.fbcdn.net/v/t39.30808-6/296962249_615311239953829_1356372559439244277_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vsQriG4cOvMAX-yPb3g&_nc_ht=scontent.fsgn3-1.fna&oh=00_AfCgHWf9X8NRo6vEUUZ-If8bbJOfxW2mnpiUFzDdv7Incg&oe=63A8481D"
                 alt="img"
               />
             </div>
