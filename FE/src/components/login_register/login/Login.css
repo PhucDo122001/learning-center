@@ -7,7 +7,9 @@
 }
 .login {
     display: flex;
-    /* background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%); */
+    /* Background: linear-gradient(135deg, 
+    rgba(34,193,195,1) 0%, 
+    rgba(253,187,45,1) 100%); */
     position: relative;
     margin:0 22%;
     margin-top: 6%;
@@ -126,6 +128,6 @@
     flex: 1;
     width:500px;
     /* position: absolute;
-    right: 0; */
+        right: 0; */
 
 }
