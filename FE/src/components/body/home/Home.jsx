@@ -38,6 +38,10 @@ function Home() {
                     <p className="home__header--lis-item--number">3.000+</p>
                     <p className="home__header--lis-item--title">ĐỀ LUYỆN THI LISTENING</p>
                 </li>
+                <li className="home__header--lis-item">
+                    <p className="home__header--lis-item--number">3.000+</p>
+                    <p className="home__header--lis-item--title">ĐỀ LUYỆN THI WRITING</p>
+                </li>
             </ul>
         </div>
       <form className="home__header-form">
