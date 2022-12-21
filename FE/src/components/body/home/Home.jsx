@@ -184,10 +184,10 @@ function Home() {
             </div>
             <div className="home__lecture-list--item-content">
                 <h3 className="item-content--title">Teacher Thao Nhu</h3>
-                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Vạn Phúc - Hà Đông</p>
+                <p className="item-content--lecture">Teacher English, Trường THCS-THPT Tan Phu</p>
                 <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
+                Learning English can really help advance your career and it also helps increase the credibility of your resume. 
+                Research has shown that the average person who uses multiple languages ​​at work can earn 8% more than usual.
                 </p>
               </div>
           </li>
