@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import ImgLogin from "../img/index.js";
 import {Loading} from '../../index'
 
-//tao 1 bien de luu value khi dang nhap, sau do dung bien nay gui len api check
+//tao 1 bien de luu value khi Login, sau do dung bien nay gui len api check
 let dataUser = {
   name: String,
   password: String,
@@ -35,7 +35,7 @@ function Login({ onLogin }) {
     //xoa nhung thuoc tinh mac dinh cua form
     e.preventDefault();
 
-    // luu value tu form dang nhap vào biến
+    // Save value tu form Login vào biến
     dataUser = {
       name: inputName,
       password: inputPassword,
@@ -52,7 +52,7 @@ function Login({ onLogin }) {
       body: JSON.stringify(dataUser),
     })
 
-    // .then là để nhận giá trị trả về từ api
+    // .then là để nhận Value trả về từ api
       .then((data) => data.json())
       .then((data) => {
         if (data.status === 200) {
