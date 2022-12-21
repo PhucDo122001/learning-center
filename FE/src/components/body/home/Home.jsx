@@ -134,10 +134,10 @@ function Home() {
             </div>
             <div className="home__lecture-list--item-content">
                 <h3 className="item-content--title">Teacher Hoang Phuc</h3>
-                <p className="item-content--lecture"> Teacher Math, Trường THCS Vạn Phúc - Hà Đông</p>
+                <p className="item-content--lecture"> Teacher Math, Trường THCS-THPT Hong Duc</p>
                 <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
+                Learning Math is a very important method to train students' sharp thinking and logical reasoning ability.
+                Learning Math helps students improve memory, quick reflexes and reasoning ability.
                 </p>
               </div>
           </li><li className="home__lecture-list--item">
