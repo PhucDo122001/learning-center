@@ -57,7 +57,7 @@ function Login({ onLogin }) {
       .then((data) => {
         if (data.status === 200) {
           
-          //khi dang nhap thanh cong thi luu vao storaged
+          //When login succcess thi luu vao storaged
           localStorage.setItem('userId', data.id)
 
           
