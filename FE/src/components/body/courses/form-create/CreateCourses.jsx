@@ -24,7 +24,7 @@ const handleInputCourses = (e) => {
     dateStart: dayInput,
     maxStudent: maxStudentInput
     }
-    fetch(`http://localhost:3002/api/post`, {
+    fetch(`https://api-center-cp8i.onrender.com/api/post`, {
         method:  'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -91,6 +91,7 @@ const handleInputCourses = (e) => {
             required
           />
       </div>
+      
       <div className="from-courses--box">
           <p className="from-courses__name">Ngày nhập học</p>
           <input
@@ -98,6 +99,17 @@ const handleInputCourses = (e) => {
             type="text"
             className="from-courses__input"
             placeholder="Nhập ngày nhập học"
+            onChange={(e) => setDayInput(e.target.value)}
+            required
+          />
+      </div>
+      <div className="from-courses--box">
+          <p className="from-courses__name">Học lực trước đó</p>
+          <input
+            value={dayInput}
+            type="text"
+            className="from-courses__input"
+            placeholder="Học lực trước đó"
             onChange={(e) => setDayInput(e.target.value)}
             required
           />
