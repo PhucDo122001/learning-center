@@ -96,9 +96,6 @@ function DetailCourse() {
         Tuổi Giáo Viên: <strong>{Course.lecture}</strong>
       </p>
       <p className="lecture font-16px">
-        : <strong>{Course.lecture}</strong>
-      </p>
-      <p className="lecture font-16px">
         Trình độ giáo viên: <strong>{Course.lecture}</strong>
       </p>
       <p className="lecture font-16px">
