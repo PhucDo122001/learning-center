@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import ImgLogin from "../img/index.js";
 import {Loading} from '../../index'
 
-//tao 1 bien de luu value khi dang nhap, sau do dung bien nay gui len api check
+//tao 1 bien de luu value khi Login, sau do dung bien nay gui len api check
 let dataUser = {
   name: String,
   password: String,
