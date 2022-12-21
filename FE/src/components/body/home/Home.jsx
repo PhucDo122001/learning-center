@@ -161,24 +161,7 @@ function Home() {
             <div className="home__lecture-list--item-picture">
               <img
                 className="item-picture-img"
-                src="https://cdn-cf.vuihoc.vn/upload/5c209fe6176b0/2022/03/22/4689_khoa-hoc-tieng-anh-3.jpg"
-                alt="img"
-              />
-            </div>
-            <div className="home__lecture-list--item-content">
-                <h3 className="item-content--title">Thầy Vitalii Turytskyi</h3>
-                <p className="item-content--lecture">Giáo Viên Ngữ văn, Trường THCS Vạn Phúc - Hà Đông</p>
-                <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
-                </p>
-              </div>
-          </li>
-          <li className="home__lecture-list--item">
-            <div className="home__lecture-list--item-picture">
-              <img
-                className="item-picture-img"
-                src="https://cdn-cf.vuihoc.vn/upload/5c209fe6176b0/2022/03/22/4689_khoa-hoc-tieng-anh-3.jpg"
+                src="https://scontent.fsgn4-1.fna.fbcdn.net/v/t39.30808-6/273973409_1626751417717666_5984085825594990391_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=fI0h767nbeMAX_ou0JO&_nc_ht=scontent.fsgn4-1.fna&oh=00_AfAYELZgh4cI1M4oZLxq1cQCHM1SMujz7ZQE7-nC6nRbLA&oe=63A7A9C0"
                 alt="img"
               />
             </div>
