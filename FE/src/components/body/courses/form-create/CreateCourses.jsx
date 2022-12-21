@@ -19,10 +19,10 @@ const handleInputCourses = (e) => {
   e.preventDefault()
   dataCourses ={
       code: codeInput,
-    name: nameInput, 
-    lecture: lectureInput,
-    dateStart: dayInput,
-    maxStudent: maxStudentInput
+      name: nameInput, 
+      lecture: lectureInput,
+      dateStart: dayInput,
+      maxStudent: maxStudentInput
     }
     fetch(`https://api-center-cp8i.onrender.com/api/post`, {
         method:  'POST',
@@ -103,7 +103,7 @@ const handleInputCourses = (e) => {
             required
           />
       </div>
-      <div className="from-courses--box">
+      {/* <div className="from-courses--box">
           <p className="from-courses__name">Học lực trước đó</p>
           <input
             value={dayInput}
@@ -113,7 +113,7 @@ const handleInputCourses = (e) => {
             onChange={(e) => setDayInput(e.target.value)}
             required
           />
-      </div>
+      </div> */}
       <div className="from-courses--box">
       <button type="submit" className="from-courses--box__btn" onClick={handleInputCourses}>Create</button>
       </div>

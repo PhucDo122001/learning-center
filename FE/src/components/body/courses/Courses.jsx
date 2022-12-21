@@ -100,7 +100,7 @@ useEffect(() => {
                 </p>
                 <p className="courses__list-item--student">Student: {course.currentStudent && course.currentStudent.length !== 0 ? course.currentStudent.length : '0' } / {course.maxStudent}</p>
                 <div className="btn-box">
-                  <Link className="btn" onClick={() => handleViewCourse(course._id)}  to="/course/detailcourse">Xem khóa học</Link>
+                  <Link className="btn" onClick={() => handleViewCourse(course._id)}  to="/course/detailcourse">Xem</Link>
                   {isAdmin?<button className="btn btn-delete" onClick={()=> handdleDelete(course._id)}>Delete</button> : <></>}
                   
                 </div>
