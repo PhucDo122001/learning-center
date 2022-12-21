@@ -55,7 +55,7 @@ function Home() {
               />
             </div>
             <div className="home__slider-list--item-content">
-                <h3 className="item-content--title">Tiếng Anh 3</h3>
+                <h3 className="item-content--title">Basic</h3>
                 <p className="item-content--lecture">Thầy Vitalii Turytskyi</p>
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
