@@ -11,7 +11,6 @@ function App() {
       localStorage.setItem('userId', ID);
       setIsUser(true);
     }
-
   return isUser ? <DefaultLayout isUser={isUser} /> :
   <Routes>
     <Route path='/login' element={<Login onLogin={handleLogin}/>} />
