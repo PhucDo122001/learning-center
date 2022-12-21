@@ -99,7 +99,7 @@ function DetailCourse() {
         Trình độ giáo viên: <strong>{Course.lecture}</strong>
       </p>
       <p className="lecture font-16px">
-        Công tác : <strong>{Course.lecture}</strong>
+        Công tác: <strong>{Course.lecture}</strong>
       </p>
       <p className="datestart font-16px">
         Ngày Bắt Đầu: <strong>{Course.dateStart}</strong>
