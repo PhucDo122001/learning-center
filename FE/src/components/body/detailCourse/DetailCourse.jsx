@@ -92,6 +92,18 @@ function DetailCourse() {
       <p className="lecture font-16px">
         Tên Giáo Viên: <strong>{Course.lecture}</strong>
       </p>
+      <p className="lecture font-16px">
+        Tuổi Giáo Viên: <strong>{Course.lecture}</strong>
+      </p>
+      <p className="lecture font-16px">
+        : <strong>{Course.lecture}</strong>
+      </p>
+      <p className="lecture font-16px">
+        Trình độ giáo viên: <strong>{Course.lecture}</strong>
+      </p>
+      <p className="lecture font-16px">
+        Công tác : <strong>{Course.lecture}</strong>
+      </p>
       <p className="datestart font-16px">
         Ngày Bắt Đầu: <strong>{Course.dateStart}</strong>
       </p>
@@ -103,6 +115,8 @@ function DetailCourse() {
             : "0"}{" "}
           / {Course.maxStudent}
         </strong>
+
+        
       </p>
       <p className="price font-16px">
         Phí: <strong>FREE</strong>
