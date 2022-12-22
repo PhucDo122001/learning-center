@@ -15,6 +15,7 @@ function CreateCourses() {
     dateStart: String,
     maxStudent: Number,
 }
+
 const handleInputCourses = (e) => {
   e.preventDefault()
   dataCourses ={
@@ -70,7 +71,7 @@ const handleInputCourses = (e) => {
           />
       </div>
       <div className="from-courses--box">
-          <p className="from-courses__name">Số lượng học viên</p>
+          <p className="from-courses__name">Number of participants</p>
           <input
             value={maxStudentInput}
             type="number"

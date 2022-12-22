@@ -43,7 +43,9 @@ function Information() {
           <div className="info-box">
             <p className="text-title">Personal Information</p>
             <p className="text-text">
+
               Role: <strong>{user.role}</strong>
+
             </p>
             <p className="text-text">
               Email: <strong>{user.email}</strong>
@@ -52,12 +54,16 @@ function Information() {
               Password: <strong>********</strong>
             </p>
             <p className="text-text">
-              Date Create: <strong>{user.dateCreate}</strong>
+
+            Date created: <strong>{user.dateCreate}</strong>
+
             </p>
           </div>
           <div className="btn-box">
             <button className="btn-logout" onClick={handleLogout}>
-              Log out!
+
+            Log out
+
             </button>
           </div>
         </div>
