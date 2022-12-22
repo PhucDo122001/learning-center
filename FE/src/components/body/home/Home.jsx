@@ -8,43 +8,43 @@ function Home() {
             <ul className="home__header--list">
                 <li className="home__header--lis-item">
                     <p className="home__header--lis-item--number">100.000+</p>
-                    <p className="home__header--lis-item--title">HỌC VIÊN</p>
+                    <p className="home__header--lis-item--title">STUDENTS</p>
                 </li>
                 <li className="home__header--lis-item">
                     <p className="home__header--lis-item--number">5.000+</p>
-                    <p className="home__header--lis-item--title">BÀI GIẢNG</p>
+                    <p className="home__header--lis-item--title">LESSON</p>
                 </li>
                 <li className="home__header--lis-item">
                     <p className="home__header--lis-item--number">200.000+</p>
-                    <p className="home__header--lis-item--title">BÀI ÔN TẬP</p>
+                    <p className="home__header--lis-item--title">REVIEW LESSON</p>
                 </li>
                 <li className="home__header--lis-item">
                     <p className="home__header--lis-item--number">4.000+</p>
-                    <p className="home__header--lis-item--title">ĐỀ LUYỆN THI</p>
+                    <p className="home__header--lis-item--title">EXAM PRACTICE QUESTIONS</p>
                 </li>
             </ul>
         </div>
       <form className="home__header-form">
-        <p className="home__header-text">Tìm bài giảng</p>
+        <p className="home__header-text">Choose Lectures</p>
         <select className="home__header-options">
-          <option value="">Chọn lớp</option>
-          <option value="lop1">Lớp 1</option>
-          <option value="lop2">Lớp 2</option>
-          <option value="lop3">Lớp 3</option>
+          <option value="">Choose Class</option>
+          <option value="lop1">Class 1</option>
+          <option value="lop2">Class 2</option>
+          <option value="lop3">Class 3</option>
         </select>
         <select className="home__header-options">
-          <option value="">Chọn môn</option>
-          <option value="tienganh">Tiếng anh</option>
-          <option value="toan">Toán</option>
-          <option value="ly">Lý</option>
-          <option value="hoa">Hóa</option>
+          <option value="">Choose subjects</option>
+          <option value="tienganh">English</option>
+          <option value="toan">Math</option>
+          <option value="ly">Physical</option>
+          <option value="hoa">Chemistry</option>
         </select>
         <button className="home__header-btn">
-          <SearchOutlined /> Tìm kiếm
+          <SearchOutlined /> Find
         </button>
       </form>
       <div className="home__slider">
-        <h1 className="home__slider-title">Khóa học nổi bật</h1>
+        <h1 className="home__slider-title">Featured course</h1>
         <ul className="home__slider-list">
           <li className="home__slider-list--item">
             <div className="home__slider-list--item-picture">
@@ -58,12 +58,12 @@ function Home() {
                 <h3 className="item-content--title">Basic</h3>
                 <p className="item-content--lecture">Teacher Leo</p>
                 <p className="item-content--text">
-                Basic là lớp học nền tảng dành cho các bạn mới bắt đầu. 
-                Khóa học được xây dựng giúp các bạn nắm chắc kiến thức cơ bản 
-                để chuẩn bị tốt cho hành trình chinh phục điểm cao.
+                Basic is a foundation class for beginners. 
+                The course is built to help you firmly grasp the basic knowledge
+                 to prepare well for the journey to conquer high scores.
                 </p>
               </div>
-              <button className="home__slider-list--item-btn"> Xem thêm</button>
+              <button className="home__slider-list--item-btn"> See more!</button>
           </li>
           <li className="home__slider-list--item">
             <div className="home__slider-list--item-picture">
@@ -77,11 +77,11 @@ function Home() {
                 <h3 className="item-content--title">Primary</h3>
                 <p className="item-content--lecture">Teacher Messi </p>
                 <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
+                This is a basic class for you to complete the Basic course 
+                to reinforce the foundation, improve vocabulary, grammar,advance new words.
                 </p>
               </div>
-              <button className="home__slider-list--item-btn"> Xem thêm</button>
+              <button className="home__slider-list--item-btn"> See more!</button>
           </li>
           <li className="home__slider-list--item">
             <div className="home__slider-list--item-picture">
@@ -95,11 +95,11 @@ function Home() {
                 <h3 className="item-content--title">Intermediate</h3>
                 <p className="item-content--lecture">Teacher Ronaldo</p>
                 <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
+                This is a class level designed for students
+                 who have a basic vocabulary and grammar level but the skills are still not stable.
                 </p>
               </div>
-              <button className="home__slider-list--item-btn"> Xem thêm</button>
+              <button className="home__slider-list--item-btn"> See more!</button>
           </li>
           <li className="home__slider-list--item">
             <div className="home__slider-list--item-picture">
@@ -113,18 +113,16 @@ function Home() {
                 <h3 className="item-content--title">High-class</h3>
                 <p className="item-content--lecture">Teacher Jessica</p>
                 <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh 
-                  trong kì thi tiếng anh sắp tới.
+                The class improve their band score,practice and consolidate all comprehensive skills and practice with the teacher to improve the mistakes when making the test, and effectively balance the time.
                 </p>
               </div>
-              <button className="home__slider-list--item-btn"> Xem thêm</button>
+              <button className="home__slider-list--item-btn"> See more!</button>
           </li>
 
         </ul>
       </div>
       <div className="home__lecture">
-      <h1 className="home__lecture-title">ĐỘI NGŨ GIÁO VIÊN</h1>
+      <h1 className="home__lecture-title">TEACHER TEAMS</h1>
         <ul className="home__lecture-list">
           <li className="home__lecture-list--item">
             <div className="home__lecture-list--item-picture">
@@ -136,7 +134,7 @@ function Home() {
             </div>
             <div className="home__lecture-list--item-content">
                 <h3 className="item-content--title">Teacher Hoang Phuc</h3>
-                <p className="item-content--lecture"> Teacher Math, Trường THCS-THPT Hong Duc</p>
+                <p className="item-content--lecture"> Teacher Math, THCS-THPT Hong Duc School</p>
                 <p className="item-content--text">
                 Learning Math is a very important method to train students' sharp thinking and logical reasoning ability.
                 Learning Math helps students improve memory, quick reflexes and reasoning ability.
@@ -152,7 +150,7 @@ function Home() {
             </div>
             <div className="home__lecture-list--item-content">
                 <h3 className="item-content--title">Teacher Cam Tu</h3>
-                <p className="item-content--lecture">Teacher Physical, Trường THCS-THPT Nguyen Khuyen</p>
+                <p className="item-content--lecture">Teacher Physical, THCS-THPT Nguyen Khuyen School</p>
                 <p className="item-content--text">
                 Learning Physics is a very important method to train students' sharp thinking and logical reasoning ability. 
                 Learning Physics helps students improve their memory, quick reflexes and reasoning ability
@@ -169,7 +167,7 @@ function Home() {
             </div>
             <div className="home__lecture-list--item-content">
                 <h3 className="item-content--title">Teacher Kieu Oanh</h3>
-                <p className="item-content--lecture">Teacher Chemistry, Trường THCS-THPT Tri Duc</p>
+                <p className="item-content--lecture">Teacher Chemistry,THCS-THPT Tri Duc School</p>
                 <p className="item-content--text">
                 Chemistry is a very important method to train students' sharp thinking and logical reasoning ability.
                 Learning Chemistry helps students improve their memory, quick reflexes and reasoning ability.
@@ -186,10 +184,10 @@ function Home() {
             </div>
             <div className="home__lecture-list--item-content">
                 <h3 className="item-content--title">Teacher Thao Nhu</h3>
-                <p className="item-content--lecture">Teacher English, Trường THCS-THPT Tan Phu</p>
+                <p className="item-content--lecture">Teacher English, THCS-THPT Tan Phu School</p>
                 <p className="item-content--text">
                 Learning English can really help advance your career and it also helps increase the credibility of your resume. 
-                Research has shown that the average person who uses multiple languages ​​at work can earn 8% more than usual.
+                Research has shown that the average person who uses multiple languages ​at work can earn 8% more than usual.
                 </p>
               </div>
           </li>
