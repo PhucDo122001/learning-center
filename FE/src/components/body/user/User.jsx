@@ -32,7 +32,7 @@ function User() {
 
     return (
         <div className='user'>
-                <h1 className='title'>Quản lý User</h1>
+                <h1 className='title'>Manage User</h1>
             <div className='container'>
                 <ul className='container__list-title'>
                     <li className='container__list-title--item-stt'>STT</li>
