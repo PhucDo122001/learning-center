@@ -110,7 +110,7 @@ function DetailCourse() {
         
       </p>
       <p className="price font-16px">
-        Phí: <strong>FREE</strong>
+        Tuition fee: <strong>FREE</strong>
       </p>
       <div className="btn-box">
         <button className="btn" onClick={handdleDangky}>
