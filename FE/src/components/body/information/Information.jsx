@@ -41,7 +41,7 @@ function Information() {
           )}
           <h1 className="infor__left-name">{user.name}</h1>
           <div className="info-box">
-            <p className="text-title">Thông tin cá nhân</p>
+            <p className="text-title">Personal Information</p>
             <p className="text-text">
               Vai trò: <strong>{user.role}</strong>
             </p>
@@ -62,19 +62,19 @@ function Information() {
           </div>
         </div>
         <div className="infor__right">
-          <h1 className="title">Danh Sách Lớp Đã Đăng Ký</h1>
+          <h1 className="title">Registered Class List</h1>
           <div className="content">
             {user.numberCourses && user.numberCourses.length !== 0 ? (
               <div className="content-box">
                 <ul className="list-title">
                 <li className="item">
-                    <p className="name font-20px font-weight">Mã & Tên lớp</p>
+                    <p className="name font-20px font-weight">Code and Class Name</p>
                   </li>
                   <li className="item">
-                    <p className="lecture font-20px font-weight">Giáo Viên</p>
+                    <p className="lecture font-20px font-weight">Teacher</p>
                   </li>
                   <li className="item">
-                    <p className="active font-20px font-weight">Thao tác</p>
+                    <p className="active font-20px font-weight">Manipulation</p>
                   </li>
                 </ul>
                 <ul className="list-courses">
@@ -82,12 +82,12 @@ function Information() {
                     <li className="item">
                       <p className="name font-18px">{course.name}</p>
                       <p className="lecture font-18px">{course.lecture}</p>
-                      <p className="active font-18px">Hủy đăng ký</p>
+                      <p className="active font-18px">Cancel registration</p>
                     </li>
                   ))}
                 </ul>
               </div>
-            ) : <h1 className="empty"> Bạn chưa đăng ký lớp học nào !</h1>}
+            ) : <h1 className="empty">You haven't signed up for any classes yet!</h1>}
           </div>
         </div>
       </div>
