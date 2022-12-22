@@ -93,13 +93,13 @@ function DetailCourse() {
         Teacher's name: <strong>{Course.lecture}</strong>
       </p>
       <p className="lecture font-16px">
-        Trình độ giáo viên: <strong>UIT</strong>
+        Teacher's qualification: <strong>UIT</strong>
       </p>
       <p className="datestart font-16px">
-        Ngày Bắt Đầu: <strong>{Course.dateStart}</strong>
+        Start date: <strong>{Course.dateStart}</strong>
       </p>
       <p className="student font-16px">
-        Số Lượng Học Viên:{" "}
+        Number of student:{" "}
         <strong>
           {Course.currentStudent && Course.currentStudent.length !== 0
             ? Course.currentStudent.length
