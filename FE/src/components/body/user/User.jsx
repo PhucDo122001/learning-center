@@ -35,11 +35,11 @@ function User() {
                 <h1 className='title'>Manage User</h1>
             <div className='container'>
                 <ul className='container__list-title'>
-                    <li className='container__list-title--item-stt'>STT</li>
-                    <li className='container__list-title--item-name'>Tên</li>
+                    <li className='container__list-title--item-stt'>Number</li>
+                    <li className='container__list-title--item-name'>Name</li>
                     <li className='container__list-title--item-email'>Email</li>
-                    <li className='container__list-title--item-role'>Vai trò</li>
-                    <li className='container__list-title--item-acctive'>Tương Tác</li>
+                    <li className='container__list-title--item-role'>Role</li>
+                    <li className='container__list-title--item-acctive'>Interactive</li>
                 </ul>
                 <ul className='container__list-content'>
                     { listUsers.map((user, index) => {
