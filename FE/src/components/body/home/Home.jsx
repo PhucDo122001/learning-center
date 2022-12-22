@@ -8,43 +8,43 @@ function Home() {
             <ul className="home__header--list">
                 <li className="home__header--lis-item">
                     <p className="home__header--lis-item--number">100.000+</p>
-                    <p className="home__header--lis-item--title">HỌC VIÊN</p>
+                    <p className="home__header--lis-item--title">STUDENT</p>
                 </li>
                 <li className="home__header--lis-item">
                     <p className="home__header--lis-item--number">5.000+</p>
-                    <p className="home__header--lis-item--title">BÀI GIẢNG</p>
+                    <p className="home__header--lis-item--title">LESSONS</p>
                 </li>
                 <li className="home__header--lis-item">
                     <p className="home__header--lis-item--number">200.000+</p>
-                    <p className="home__header--lis-item--title">BÀI ÔN TẬP</p>
+                    <p className="home__header--lis-item--title">REVIEWS</p>
                 </li>
                 <li className="home__header--lis-item">
                     <p className="home__header--lis-item--number">4.000+</p>
-                    <p className="home__header--lis-item--title">ĐỀ LUYỆN THI</p>
+                    <p className="home__header--lis-item--title">EXAMINATION PRACTICE</p>
                 </li>
             </ul>
         </div>
       <form className="home__header-form">
-        <p className="home__header-text">Tìm bài giảng</p>
+        <p className="home__header-text">Find lectures</p>
         <select className="home__header-options">
-          <option value="">Chọn lớp</option>
-          <option value="lop1">Lớp 1</option>
-          <option value="lop2">Lớp 2</option>
-          <option value="lop3">Lớp 3</option>
+          <option value="">Choose Class</option>
+          <option value="lop1">Class 1</option>
+          <option value="lop2">Class 2</option>
+          <option value="lop3">Class 3</option>
         </select>
         <select className="home__header-options">
-          <option value="">Chọn môn</option>
-          <option value="tienganh">Tiếng anh</option>
-          <option value="toan">Toán</option>
-          <option value="ly">Lý</option>
-          <option value="hoa">Hóa</option>
+          <option value="">Choose a subject</option>
+          <option value="tienganh">English</option>
+          <option value="toan">Maths</option>
+          <option value="ly">Physical</option>
+          <option value="hoa">Chemistry</option>
         </select>
         <button className="home__header-btn">
-          <SearchOutlined /> Tìm kiếm
+          <SearchOutlined /> Search
         </button>
       </form>
       <div className="home__slider">
-        <h1 className="home__slider-title">Khóa học nổi bật</h1>
+        <h1 className="home__slider-title">Featured Course</h1>
         <ul className="home__slider-list">
           <li className="home__slider-list--item">
             <div className="home__slider-list--item-picture">
@@ -56,11 +56,11 @@ function Home() {
             </div>
             <div className="home__slider-list--item-content">
                 <h3 className="item-content--title">Basic</h3>
-                <p className="item-content--lecture">Teacher Leo</p>
+                <p className="item-content--lecture">Teacher Corbin</p>
                 <p className="item-content--text">
-                Basic là lớp học nền tảng dành cho các bạn mới bắt đầu. 
-                Khóa học được xây dựng giúp các bạn nắm chắc kiến thức cơ bản 
-                để chuẩn bị tốt cho hành trình chinh phục điểm cao.
+                Basic is a foundation class for beginners. 
+                The course is built to help you firmly grasp the basic
+                knowledge to prepare well for the journey to conquer high scores.
                 </p>
               </div>
               <button className="home__slider-list--item-btn"> Xem thêm</button>
@@ -75,7 +75,7 @@ function Home() {
             </div>
             <div className="home__slider-list--item-content">
                 <h3 className="item-content--title">Primary</h3>
-                <p className="item-content--lecture">Teacher Messi </p>
+                <p className="item-content--lecture">Teacher Finn </p>
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
                   công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
@@ -93,7 +93,7 @@ function Home() {
             </div>
             <div className="home__slider-list--item-content">
                 <h3 className="item-content--title">Intermediate</h3>
-                <p className="item-content--lecture">Teacher Ronaldo</p>
+                <p className="item-content--lecture">Teacher Rory</p>
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
                   công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
