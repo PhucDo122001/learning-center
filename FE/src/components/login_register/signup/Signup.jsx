@@ -91,7 +91,7 @@ function Signup() {
               <div className="signup-content">
                 <h1 className="signup-title">Sign Up</h1>
                 <div className="signup-input-form">
-                  <span className="signup-input-span">Username</span>
+                  <span className="signup-input-span">UserName</span>
                   <input
                     type="text"
                     className="signup-input-box"
