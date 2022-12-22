@@ -120,5 +120,5 @@ function DetailCourse() {
     </div>
   );
 }
-
+//Course details
 export default DetailCourse;
