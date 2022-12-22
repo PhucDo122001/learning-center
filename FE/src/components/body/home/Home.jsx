@@ -59,7 +59,7 @@ function Home() {
                 <p className="item-content--lecture">Teacher Leo</p>
                 <p className="item-content--text">
                 Help your child improve English listening - speaking - reading comprehension skills by
-                  A-talk technology for sound training. Aim for 10 points in English
+                A-talk technology for sound training.
                 </p>
               </div>
               <button className="home__slider-list--item-btn"> Xem thêm</button>
