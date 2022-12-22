@@ -56,7 +56,7 @@ function Home() {
             </div>
             <div className="home__slider-list--item-content">
                 <h3 className="item-content--title">Basic</h3>
-                <p className="item-content--lecture">Teacher Leo</p>
+                <p className="item-content--lecture">Teacher Corbin</p>
                 <p className="item-content--text">
                 Basic is a foundation class for beginners. 
                 The course is built to help you firmly grasp the basic knowledge
