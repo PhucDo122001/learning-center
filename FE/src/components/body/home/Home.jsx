@@ -56,10 +56,10 @@ function Home() {
             </div>
             <div className="home__slider-list--item-content">
                 <h3 className="item-content--title">Basic</h3>
-                <p className="item-content--lecture">Thầy Vitalii Turytskyi</p>
+                <p className="item-content--lecture">Thầy Leo</p>
                 <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
+                Help your child improve English listening - speaking - reading comprehension skills by
+                  A-talk technology for sound training. Aim for 10 points in English
                 </p>
               </div>
               <button className="home__slider-list--item-btn"> Xem thêm</button>
