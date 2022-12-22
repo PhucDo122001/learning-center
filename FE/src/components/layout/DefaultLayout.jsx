@@ -9,6 +9,8 @@ import {
 } from "@ant-design/icons";
 import { Layout, Menu, theme } from "antd";
 import { Routes, Route, useNavigate } from "react-router-dom";
+
+
 const { Content, Sider } = Layout;
 function getItem(label, key, icon, children) {
   return {
@@ -19,7 +21,7 @@ function getItem(label, key, icon, children) {
   };
 }
 
-// những items này sẽ được rander ra thành menu
+// This items will rander thành menu
 let items = [];
 
 const DefaultLayout = ({ isUser }) => {
@@ -58,16 +60,16 @@ const DefaultLayout = ({ isUser }) => {
 
   if (isAdmin) {
     items = [
-      getItem("Trang Chủ", "/", <HomeFilled />),
-      getItem("Khóa Học", "/courses", <DesktopOutlined />),
-      getItem("Thông Tin", "/infromation", <InfoOutlined />),
-      getItem("Quản lý user", "/user", <TeamOutlined />),
+      getItem("Homer", "/", <HomeFilled />),
+      getItem("Courses", "/courses", <DesktopOutlined />),
+      getItem("Information", "/infromation", <InfoOutlined />),
+      getItem("Manage users", "/user", <TeamOutlined />),
     ];
   } else {
     items = [
-      getItem("Trang Chủ", "/", <HomeFilled />),
-      getItem("Khóa Học", "/courses", <DesktopOutlined />),
-      getItem("Thông Tin", "/infromation", <InfoOutlined />),
+      getItem("Home", "/", <HomeFilled />),
+      getItem("Courses", "/courses", <DesktopOutlined />),
+      getItem("Information", "/infromation", <InfoOutlined />),
     ];
   }
 
