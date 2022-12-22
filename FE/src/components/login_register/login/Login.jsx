@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import ImgLogin from "../img/index.js";
 import {Loading} from '../../index'
 
-//tao 1 bien de luu value khi Login, sau do dung bien nay gui len api check
+//Create 1 bien de Save value khi Login, sau do dung bien nay gui len api check
 let dataUser = {
   name: String,
   password: String,
@@ -17,7 +17,7 @@ function Login({ onLogin }) {
   const [isloading, setIsLoading] = useState(false);
   const [randomImg, setRandomImg] = useState(random)
 
-  //set time de thay doi hinh anh 
+  //set time de Change image 
     useEffect(() => {
       const inter = setInterval(()=> {
         random = Math.floor(Math.random() * ImgLogin.length);
@@ -26,13 +26,13 @@ function Login({ onLogin }) {
       return () =>      clearInterval(inter)
   },[randomImg])
 
-  //navigate dung de change pages when login is successful
+  //navigate use change pages when login is successful
   const navigate = useNavigate();
 
 
   // function xu ly khi click button login
   const handleLogin = (e) => {
-    //xoa nhung thuoc tinh mac dinh cua form
+    //Delete nhung thuoc tinh mac dinh cua form
     e.preventDefault();
 
     // Save value tu form Login vào biến
@@ -67,7 +67,7 @@ function Login({ onLogin }) {
           navigate("/", { replace: true });
         } else {
           setIsLoading(false)
-          alert("Tai khoan Hoac mat khau sai !");}
+          alert("Account or Password failed !");}
       })
       .catch((err) => console.log(err.data));
   };
@@ -87,7 +87,7 @@ function Login({ onLogin }) {
                   type="text"
                   required
                   className="login-input-box"
-                  placeholder="Nhap username"
+                  placeholder="Input Username"
                   onChange={(e) => setName(e.target.value)}
                 ></input>
               </div>
@@ -97,7 +97,7 @@ function Login({ onLogin }) {
                   type="password"
                   required
                   className="login-input-box"
-                  placeholder="Nhap Password"
+                  placeholder="Input Password"
                   onChange={(e) => setPassword(e.target.value)}
                 ></input>
               </div>
