@@ -110,7 +110,7 @@ function Home() {
             </div>
             <div className="home__slider-list--item-content">
                 <h3 className="item-content--title">High-class</h3>
-                <p className="item-content--lecture">Thầy Vitalii Turytskyi</p>
+                <p className="item-content--lecture">Teacher Lucky</p>
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
                   công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
