@@ -7,7 +7,9 @@
 }
 .login {
     display: flex;
-    /* background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%); */
+    /* background: linear-gradient(135deg, 
+    rgba(34,193,195,1) 0%,     
+    rgba(253,187,45,1) 100%); */
     position: relative;
     margin:0 22%;
     margin-top: 6%;
@@ -79,6 +81,7 @@
 .text__forgot {
     margin: 16px 0;
 }
+
 .mr-16 {
     margin: 16px 0;
 }
@@ -89,15 +92,18 @@
     text-align: center;
     margin-top: 36px;
 }
+
 .login__more-text {
     font-size: 20px;
 }
+
 .login__more-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
+
 .login__more-icon i {
     font-size: 26px;
     height: 50px;
@@ -126,6 +132,6 @@
     flex: 1;
     width:500px;
     /* position: absolute;
-    right: 0; */
+        right: 0; */
 
 }
