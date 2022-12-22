@@ -6,26 +6,26 @@ function Footer() {
         <div className='footer'>
             <ul className='footer__list'>
                 <li className='footer__list-item'>
-                    <h2 className='footer__list-item--title'>CHĂM SÓC KHÁCH HÀNG</h2>
-                    <p className='footer__list-item--text'>Email: troho@gmail.com</p>
-                    <p className='footer__list-item--text'>Đường dây nóng: 1234 123 123</p>
+                    <h2 className='footer__list-item--title'>Customer Care</h2>
+                    <p className='footer__list-item--text'>Email: supportstaff@gmail.com</p>
+                    <p className='footer__list-item--text'>Hostline: 039 8710 817</p>
                 </li>
                 <li className='footer__list-item'>
-                    <h2 className='footer__list-item--title'>CHÍNH SÁCH ƯU ĐÃI</h2>
-                    <p className='footer__list-item--text'>Hình thức thanh toán</p>
-                    <p className='footer__list-item--text'>Trả hàng & hoàn tiền</p>
-                    <p className='footer__list-item--text'>Chính sách bảo mật</p>
+                    <h2 className='footer__list-item--title'>PRIORITY POLICY</h2>
+                    <p className='footer__list-item--text'>Method of payments</p>
+                    <p className='footer__list-item--text'>Returns & Refunds</p>
+                    <p className='footer__list-item--text'>Privacy Policy</p>
                 </li>
                 <li className='footer__list-item'>
-                    <h2 className='footer__list-item--title'>VỀ CHÚNG TÔI</h2>
-                    <p className='footer__list-item--text'>Giới thiệu về Learning Center</p>
-                    <p className='footer__list-item--text'>Liên hệ với Chúng tôi</p>
+                    <h2 className='footer__list-item--title'>ABOUT US</h2>
+                    <p className='footer__list-item--text'>About Learning Center</p>
+                    <p className='footer__list-item--text'>Contact us</p>
                 </li>
                 <li className='footer__list-item'>
-                    <h2 className='footer__list-item--title'>KHÔNG GIAN HỌC TẬP</h2>
-                    <p className='footer__list-item--text'>Bảng tin trường học</p>
-                    <p className='footer__list-item--text'>Thử tài đố vui</p>
-                    <p className='footer__list-item--text'>Hỏi bài & chửa bài</p>
+                    <h2 className='footer__list-item--title'>LEARNING SPACE</h2>
+                    <p className='footer__list-item--text'>School bulletin board</p>
+                    <p className='footer__list-item--text'>Try quizzes</p>
+                    <p className='footer__list-item--text'>Ask questions and correct them</p>
                 </li>
             </ul>
         </div>
