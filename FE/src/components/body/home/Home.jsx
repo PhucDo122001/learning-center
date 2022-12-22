@@ -50,11 +50,7 @@ function Home() {
             <div className="home__slider-list--item-picture">
               <img
                 className="item-picture-img"
-<<<<<<< HEAD
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCVrnFs33Ej_AoIlGjxxo-s9GtViOn2Qakjw&usqp=CAU"
-=======
-                src="https://scontent.xx.fbcdn.net/v/t1.15752-9/319508815_5893659554013745_2801021667938295256_n.png?stp=dst-png_s403x403&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=-s0H-33JqcAAX8kFUAF&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQuHbs-pZUXcZ1C18_CJ4QP_RQMNSEMqrccXLksg2MB5w&oe=63CB1389"
->>>>>>> master
                 alt="img"
               />
             </div>
@@ -62,14 +58,9 @@ function Home() {
                 <h3 className="item-content--title">Basic</h3>
                 <p className="item-content--lecture">Teacher Leo</p>
                 <p className="item-content--text">
-<<<<<<< HEAD
                 Basic là lớp học nền tảng dành cho các bạn mới bắt đầu. 
                 Khóa học được xây dựng giúp các bạn nắm chắc kiến thức cơ bản 
                 để chuẩn bị tốt cho hành trình chinh phục điểm cao.
-=======
-                Help your child improve English listening - speaking - reading comprehension skills by
-                A-talk technology for sound training.
->>>>>>> master
                 </p>
               </div>
               <button className="home__slider-list--item-btn"> Xem thêm</button>
@@ -120,14 +111,11 @@ function Home() {
             </div>
             <div className="home__slider-list--item-content">
                 <h3 className="item-content--title">High-class</h3>
-<<<<<<< HEAD
                 <p className="item-content--lecture">Teacher Jessica</p>
-=======
-                <p className="item-content--lecture">Teacher Lucky</p>
->>>>>>> master
                 <p className="item-content--text">
                   Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
+                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh 
+                  trong kì thi tiếng anh sắp tới.
                 </p>
               </div>
               <button className="home__slider-list--item-btn"> Xem thêm</button>
