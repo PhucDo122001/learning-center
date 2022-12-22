@@ -56,10 +56,11 @@ function Home() {
             </div>
             <div className="home__slider-list--item-content">
                 <h3 className="item-content--title">Basic</h3>
-                <p className="item-content--lecture">Thầy Vitalii Turytskyi</p>
+                <p className="item-content--lecture">Teacher Leo</p>
                 <p className="item-content--text">
-                  Giúp con trau dồi kĩ năng nghe - nói - đọc hiểu Tiếng Anh bằng
-                  công nghệ A-talk luyện phát âm. Mục tiêu điểm 10 môn Tiếng Anh
+                Basic là lớp học nền tảng dành cho các bạn mới bắt đầu. 
+                Khóa học được xây dựng giúp các bạn nắm chắc kiến thức cơ bản 
+                để chuẩn bị tốt cho hành trình chinh phục điểm cao.
                 </p>
               </div>
               <button className="home__slider-list--item-btn"> Xem thêm</button>
