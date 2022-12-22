@@ -114,7 +114,7 @@ function DetailCourse() {
       </p>
       <div className="btn-box">
         <button className="btn" onClick={handdleDangky}>
-          Đăng Ký Ngay
+          Registration Now!
         </button>
       </div>
     </div>
