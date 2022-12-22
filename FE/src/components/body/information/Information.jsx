@@ -43,21 +43,21 @@ function Information() {
           <div className="info-box">
             <p className="text-title">Personal Information</p>
             <p className="text-text">
-              Vai trò: <strong>{user.role}</strong>
+              Role: <strong>{user.role}</strong>
             </p>
             <p className="text-text">
               Email: <strong>{user.email}</strong>
             </p>
             <p className="text-text">
-              Mật khẩu: <strong>********</strong>
+              Password: <strong>********</strong>
             </p>
             <p className="text-text">
-              Ngày tạo: <strong>{user.dateCreate}</strong>
+              Date Create: <strong>{user.dateCreate}</strong>
             </p>
           </div>
           <div className="btn-box">
             <button className="btn-logout" onClick={handleLogout}>
-              Đăng Xuất
+              Log out!
             </button>
           </div>
         </div>
