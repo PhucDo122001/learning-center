@@ -57,7 +57,7 @@ function DetailCourse() {
       .then((res) => res.json())
       .then((res) => {
         if (res.status === 200) {
-          alert("Đăng ký thành công !");
+          alert("Registration sucessful !");
         } else alert(res.message);
       });
 
@@ -90,7 +90,7 @@ function DetailCourse() {
         </strong>
       </h1>
       <p className="lecture font-16px">
-        Tên Giáo Viên: <strong>{Course.lecture}</strong>
+        Teacher's name: <strong>{Course.lecture}</strong>
       </p>
       <p className="lecture font-16px">
         Trình độ giáo viên: <strong>UIT</strong>
