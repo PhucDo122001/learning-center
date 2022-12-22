@@ -50,7 +50,7 @@ function Home() {
             <div className="home__slider-list--item-picture">
               <img
                 className="item-picture-img"
-                src="https://cdn-cf.vuihoc.vn/upload/5c209fe6176b0/2022/03/22/4689_khoa-hoc-tieng-anh-3.jpg"
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.phunuonline.com.vn%2F2-nam-kho-nhoc-cua-giao-vien-nuoc-ngoai-o-viet-nam-a1459633.html&psig=AOvVaw2PqH-8CgUB6Zu7d9eeTCBK&ust=1671758755495000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMCOnOiIjPwCFQAAAAAdAAAAABAE"
                 alt="img"
               />
             </div>
