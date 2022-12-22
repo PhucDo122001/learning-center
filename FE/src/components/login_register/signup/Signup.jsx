@@ -1,17 +1,17 @@
-import "./Signup.css";
-import { NavLink, useNavigate} from "react-router-dom";
-import { useState, useEffect } from "react";
-import ImgLogin from "../img/index.js"
-import {Loading} from '../../index'
+import './Signup.css';
+import { NavLink, useNavigate} from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import ImgLogin from '../img/index.js';
+import {Loading} from '../../index';
 
 
-
+// Create data 
 let dataUser = {
   name: String,
   password: String,
   email: String,
 };
-
+// set 
 let random = Math.floor(Math.random() * ImgLogin.length);
 function Signup() {
   const [inputName, setName] = useState("");
@@ -64,13 +64,13 @@ function Signup() {
       if(data.status === 401 )
       {
       setIsLoading(false)
-      alert("Username đã tồn tại")
+      alert("Username already exist!!")
       }
     
       if(data.status === 402 )
       {
       setIsLoading(false)
-      alert("Email đã tồn tại")
+      alert("Email already exist!!")
       }
     }
   })

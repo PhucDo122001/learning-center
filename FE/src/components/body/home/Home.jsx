@@ -62,7 +62,7 @@ function Home() {
                 The course is built to help you firmly grasp the basic knowledge
                  to prepare well for the journey to conquer high scores.
                 </p>
-              </div>
+                </div>
               <button className="home__slider-list--item-btn"> See more!</button>
           </li>
           <li className="home__slider-list--item">
