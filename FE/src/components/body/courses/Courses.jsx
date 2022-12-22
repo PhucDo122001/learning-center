@@ -70,7 +70,7 @@ useEffect(() => {
             className="courses__header--box-text"
             onClick={() => setAddCourse(!addCourse)}
           >
-            Thêm khóa học <PlusOutlined />
+            Add Courses <PlusOutlined />
           </p> : <></>}
           
         </div>
@@ -100,7 +100,7 @@ useEffect(() => {
                 </p>
                 <p className="courses__list-item--student">Student: {course.currentStudent && course.currentStudent.length !== 0 ? course.currentStudent.length : '0' } / {course.maxStudent}</p>
                 <div className="btn-box">
-                  <Link className="btn" onClick={() => handleViewCourse(course._id)}  to="/course/detailcourse">Xem</Link>
+                  <Link className="btn" onClick={() => handleViewCourse(course._id)}  to="/course/detailcourse">Watch</Link>
                   {isAdmin?<button className="btn btn-delete" onClick={()=> handdleDelete(course._id)}>Delete</button> : <></>}
                   
                 </div>
@@ -110,8 +110,8 @@ useEffect(() => {
         })}
       </ul>
       <div className="courses__more">
-        {coursesNumber >8 ? <button className="courses__more--btn" onClick={() => setCourseNumber(coursesNumber - 4)}> Ẩn bớt</button> : <></>}
-        {listCourses.length  > 8 ? <button className="courses__more--btn" onClick={() => setCourseNumber(coursesNumber + 4)}>Xem thêm</button> : <></>}
+        {coursesNumber >8 ? <button className="courses__more--btn" onClick={() => setCourseNumber(coursesNumber - 4)}> Hide</button> : <></>}
+        {listCourses.length  > 8 ? <button className="courses__more--btn" onClick={() => setCourseNumber(coursesNumber + 4)}>See More</button> : <></>}
         
       </div>
     </div>

@@ -48,7 +48,7 @@ const handleInputCourses = (e) => {
     <form className="from-courses">
         
       <div className="from-courses--box">
-          <p className="from-courses__name">Code khóa học</p>
+          <p className="from-courses__name">Courses Code</p>
           <input
             type="text"
             value={codeInput}
@@ -59,7 +59,7 @@ const handleInputCourses = (e) => {
           />
       </div>
       <div className="from-courses--box">
-          <p className="from-courses__name">Tên khóa học</p>
+          <p className="from-courses__name">Name Courses</p>
           <input
             value={nameInput}
             type="text"
@@ -81,7 +81,7 @@ const handleInputCourses = (e) => {
           />
       </div>
       <div className="from-courses--box">
-          <p className="from-courses__name">Tên giáo viên</p>
+          <p className="from-courses__name">Name Teacher</p>
           <input
             value={lectureInput}
             type="text"
@@ -93,7 +93,7 @@ const handleInputCourses = (e) => {
       </div>
       
       <div className="from-courses--box">
-          <p className="from-courses__name">Ngày nhập học</p>
+          <p className="from-courses__name">Admission date</p>
           <input
             value={dayInput}
             type="text"
