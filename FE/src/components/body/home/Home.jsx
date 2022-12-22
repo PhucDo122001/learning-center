@@ -50,13 +50,13 @@ function Home() {
             <div className="home__slider-list--item-picture">
               <img
                 className="item-picture-img"
-                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.phunuonline.com.vn%2F2-nam-kho-nhoc-cua-giao-vien-nuoc-ngoai-o-viet-nam-a1459633.html&psig=AOvVaw2PqH-8CgUB6Zu7d9eeTCBK&ust=1671758755495000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMCOnOiIjPwCFQAAAAAdAAAAABAE"
+                src="https://scontent.xx.fbcdn.net/v/t1.15752-9/319508815_5893659554013745_2801021667938295256_n.png?stp=dst-png_s403x403&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=-s0H-33JqcAAX8kFUAF&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQuHbs-pZUXcZ1C18_CJ4QP_RQMNSEMqrccXLksg2MB5w&oe=63CB1389"
                 alt="img"
               />
             </div>
             <div className="home__slider-list--item-content">
                 <h3 className="item-content--title">Basic</h3>
-                <p className="item-content--lecture">Thầy Leo</p>
+                <p className="item-content--lecture">Teacher Leo</p>
                 <p className="item-content--text">
                 Help your child improve English listening - speaking - reading comprehension skills by
                   A-talk technology for sound training. Aim for 10 points in English
